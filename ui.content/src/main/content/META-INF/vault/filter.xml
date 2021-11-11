@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ugamdemo" mode="merge"/>
+    <filter root="/content/ugamdemo" mode="merge"/>
+    <filter root="/content/dam/ugamdemo" mode="merge"/>
+    <filter root="/content/experience-fragments/ugamdemo" mode="merge"/>
+</workspaceFilter>
