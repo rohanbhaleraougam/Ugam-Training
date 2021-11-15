@@ -17,7 +17,7 @@ import java.util.Map;
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 @Exporter(name = "jackson", extensions="json")
 
-public class TimelineImpl implements Timeline{
+public class TimelineImpl implements Timeline {
 
     static final String RESOURCE_TYPE ="ugamdemo/components/content/timeline";
 
