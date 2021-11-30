@@ -7,7 +7,9 @@ import com.day.cq.search.QueryBuilder;
 import com.day.cq.search.result.Hit;
 import com.day.cq.search.result.SearchResult;
 import com.ugamdemo.core.models.ServiceUserModel;
-import org.apache.sling.api.resource.Resource;
+import com.ugamdemo.core.utils.ResolverUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.LoginException;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -21,7 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Model(adaptables = Resource.class,
+@Model(adaptables = SlingHttpServletRequest.class,
         adapters = ServiceUserModel.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class ServiceUserModelImpl implements ServiceUserModel {
@@ -29,8 +31,8 @@ public class ServiceUserModelImpl implements ServiceUserModel {
     @OSGiService
     ServiceUserModel serviceUserModel;
 
-    @Inject
-    private ResourceResolverFactory resourceResolverFactory;
+    @OSGiService
+    ResourceResolverFactory resourceResolverFactory;
 
     @Inject
     ResourceResolver resolver;
@@ -40,7 +42,7 @@ public class ServiceUserModelImpl implements ServiceUserModel {
 
 
     @Override
-    public String getUserNames() {
+    public String getUserNames() throws LoginException {
 
 
         Map<String, String> userMap = new HashMap<>();
@@ -52,7 +54,9 @@ public class ServiceUserModelImpl implements ServiceUserModel {
         userMap.put("type", "rep:User");
         userMap.put("p.properties", "rep:principalName");
 
-              Session session = resolver.adaptTo(Session.class);
+
+        ResourceResolver serviceResourceResolver = ResolverUtils.newResolver(resourceResolverFactory);
+              Session session = serviceResourceResolver.adaptTo(Session.class);
            Query userQuery = queryBuilder.createQuery(PredicateGroup.create(userMap), session);
             SearchResult result = userQuery.getResult();
             List<Hit> Hits = result.getHits();
