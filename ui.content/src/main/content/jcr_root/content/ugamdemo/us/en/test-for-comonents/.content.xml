@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-06T16:25:34.795+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-12-07T16:10:32.200+05:30"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/ugamdemo/settings/wcm/templates/ugam-custom-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test for comonents"
+        jcr:uuid="13919b68-b2dc-4e04-9461-f4b9ce79af8d"
+        sling:resourceType="ugamdemo/components/page"
+        approver="Rohan">
+        <root
+            jcr:lastModified="{Date}2021-11-29T21:50:10.052+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ugamdemo/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2021-11-29T22:03:45.376+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ugamdemo/components/container">
+                <title_text
+                    jcr:created="{Date}2021-11-30T09:55:17.997+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-30T09:55:43.944+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/title-text"
+                    bottomPadding="true"
+                    sectionGap="false"
+                    text="aslfkja;slkfdj;alskdfj;alskdjf;alksjdf;laksjfd;alkjf;lsdksdnfbieutfohcbkjschoiuetrwhjfbjsafdhkajsjasdfasdfhfgv"
+                    title="Lorem ipsum"/>
+                <banner_area_copy
+                    cq:styleIds="[1638423543917,1638423611738,1638429914368,1638431536845]"
+                    jcr:created="{Date}2021-07-21T21:40:36.981+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-21T21:41:47.026+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/banner-area"
+                    buttonTitle="VIEW FULL DETAILS"
+                    desc="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.&#xd;&#xa;"
+                    heading="PHILIP GILBERT"
+                    img="/content/dam/ugamdemo/hero-img.png"
+                    path="/content/ugamdemo/us/en/home"
+                    title="THIS IS ME"/>
+                <copy_of_title_text
+                    jcr:created="{Date}2021-11-30T10:15:31.177+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-30T10:15:31.177+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/Copy of title-text"/>
+                <copy_of_title_text_168117818
+                    jcr:created="{Date}2021-11-30T10:15:52.680+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-30T10:15:52.680+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/Copy of title-text"/>
+                <text
+                    jcr:created="{Date}2021-11-30T10:16:34.453+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-30T10:16:34.453+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/Copy of title-text/text"/>
+                <custom_component
+                    jcr:created="{Date}2021-11-30T13:28:19.362+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-30T13:29:00.228+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/Custom Component"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>&lt;i>&lt;b>Hello&lt;/b>&lt;/i>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <banner_area_copy_1858570315
+                    cq:styleIds="[1638423543917,1638423611738,1638429914368,1638431536845]"
+                    jcr:created="{Date}2021-07-21T21:40:36.981+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-02T14:24:32.922+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/banner-area"
+                    buttonTitle="VIEW FULL DETAILS"
+                    desc="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. "
+                    heading="PERSONAL DETAILS"
+                    img="/content/dam/ugamdemo/about-img.png"
+                    path="/content/ugamdemo/us/en/home"
+                    title="ABOUT ME"/>
+                <home_about_copy
+                    jcr:created="{Date}2021-07-21T21:42:10.740+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-21T22:23:58.843+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/home-about"
+                    buttonTitle="VIEW FULL DETAILS"
+                    desc="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                    heading="PERSONAL DETAILS"
+                    img="/content/dam/ugamdemo/about-img.png"
+                    path="/content/ugamdemo/us/en/home"
+                    title="ABOUT ME"/>
+                <custom_component_1566305811
+                    cq:styleIds="[1638259620923]"
+                    jcr:created="{Date}2021-12-02T11:48:58.340+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-02T11:49:11.744+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/custom-component"
+                    text="&lt;p>Core Component&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <osgi_component
+                    jcr:created="{Date}2021-12-03T12:45:25.243+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-03T12:45:25.243+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/osgi-component"/>
+                <text_1382662167
+                    jcr:created="{Date}2021-12-06T14:19:40.416+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-06T15:04:30.894+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/text"
+                    text="&lt;p>&lt;b>Test For Workflow...&lt;/b>&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <text_1702638377
+                    jcr:created="{Date}2021-12-06T16:25:27.194+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-06T16:25:34.792+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/text"
+                    text="&lt;p>DEMO&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

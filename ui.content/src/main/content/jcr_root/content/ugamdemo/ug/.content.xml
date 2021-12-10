@@ -2,16 +2,22 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-08T15:51:49.505+05:30"
+        cq:lastModified="{Date}2021-12-08T15:52:06.942+05:30"
         cq:lastModifiedBy="admin"
-        cq:redirectTarget="/content/ugamdemo/us/en"
+        cq:lastRolledout="{Date}2021-12-08T15:42:33.951+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:redirectTarget="/content/ugamdemo/ug/en"
+        cq:siteOwner="admin"
         cq:template="/conf/ugamdemo/settings/wcm/templates/page-content"
+        jcr:mixinTypes="[cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="us"
+        jcr:title="Ugam blueprint"
         sling:resourceType="foundation/components/redirect">
-        <cq:BlueprintSyncConfig
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/ugamdemo/us"
             cq:rolloutConfigs="[/apps/msm/ugam-demo-blue-print/rolloutconfigs/rolloutconfig]"
-            jcr:primaryType="cq:BlueprintSyncConfig"/>
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <en/>
 </jcr:root>
