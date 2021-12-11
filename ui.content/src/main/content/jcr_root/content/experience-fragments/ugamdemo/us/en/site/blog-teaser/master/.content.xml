@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-07-21T22:17:33.150+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/ugamdemo/settings/wcm/templates/ugamxf"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="blog teaser"
+        sling:resourceType="ugamdemo/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ugamdemo/components/container"
+            layout="responsiveGrid">
+            <blog_teaser
+                jcr:created="{Date}2021-07-21T22:15:51.504+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-07-21T22:17:33.069+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ugamdemo/components/content/blog-teaser"
+                blogText="Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career."
+                blogTitle="Break Through Self Doubt And Fear"
+                img="/content/dam/ugamdemo/b1.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </blog_teaser>
+            <blog_teaser_copy
+                jcr:created="{Date}2021-07-21T22:15:51.504+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-07-21T22:17:04.380+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ugamdemo/components/content/blog-teaser"
+                blogText="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
+                blogTitle="PORTABLE FASHION FOR YOUNG WOMEN"
+                img="/content/dam/ugamdemo/b2.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </blog_teaser_copy>
+            <blog_teaser_copy_702532403
+                jcr:created="{Date}2021-07-21T22:15:51.504+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-07-21T22:17:27.403+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ugamdemo/components/content/blog-teaser"
+                blogText="So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved."
+                blogTitle="DO DREAMS SERVE AS A PREMONITION"
+                img="/content/dam/ugamdemo/b3.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </blog_teaser_copy_702532403>
+        </root>
+    </jcr:content>
+</jcr:root>

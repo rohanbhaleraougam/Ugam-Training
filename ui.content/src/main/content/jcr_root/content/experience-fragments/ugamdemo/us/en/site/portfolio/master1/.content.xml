@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-10T16:14:24.486+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ugamdemo/settings/wcm/templates/ugamxf"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="portfolio-2"
+        sling:resourceType="ugamdemo/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ugamdemo/components/container"
+            layout="responsiveGrid">
+            <portfolio_teaser
+                cq:masterBuildingBlock="{Boolean}true"
+                jcr:created="{Date}2021-07-21T22:05:58.336+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-12-10T13:31:33.275+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Custom Building Block"
+                sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+                <portfolio_teaser183294658541000
+                    jcr:lastModified="{Date}2021-12-10T16:14:24.321+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/portfolio-teaser"
+                    img="/content/dam/ugamdemo/p1.jpg"
+                    portfolioText="2D Vinyl Design"
+                    portfolioTitle="vector">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </portfolio_teaser183294658541000>
+                <item183294663094400
+                    jcr:created="{Date}2021-07-21T22:05:58.336+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-10T13:28:46.129+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/portfolio-teaser"
+                    img="/content/dam/ugamdemo/p4.jpg"
+                    portfolioText="2D Vinyl Design"
+                    portfolioTitle="vector">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </item183294663094400>
+                <item183294665368600
+                    jcr:created="{Date}2021-07-21T22:05:58.336+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-10T13:28:50.056+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ugamdemo/components/content/portfolio-teaser"
+                    img="/content/dam/ugamdemo/p3.jpg"
+                    portfolioText="2D Vinyl Design"
+                    portfolioTitle="vector">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </item183294665368600>
+            </portfolio_teaser>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+        <cq:BlueprintSyncConfig
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/pushonmodify]"
+            jcr:primaryType="cq:BlueprintSyncConfig"/>
+    </jcr:content>
+</jcr:root>
