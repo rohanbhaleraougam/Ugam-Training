@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-10T14:02:33.257+05:30"
+        cq:lastModified="{Date}2021-12-10T14:06:35.636+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-12-06T14:48:47.398+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/ugamdemo/settings/wcm/templates/ugam-custom-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
+        jcr:uuid="a80606b7-f92b-44f5-a465-5fecd5d47595"
         sling:resourceType="ugamdemo/components/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -17,9 +23,10 @@
                 sling:resourceType="ugamdemo/components/container"
                 layout="responsiveGrid">
                 <banner_area
+                    cq:styleIds="[1638423543917,1638423611738,1638429914368,1638431536845]"
                     jcr:created="{Date}2021-07-21T21:40:36.981+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-21T21:41:47.026+05:30"
+                    jcr:lastModified="{Date}2021-12-02T14:11:29.927+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ugamdemo/components/content/banner-area"
@@ -79,22 +86,22 @@
                 <title_text
                     jcr:created="{Date}2021-07-21T21:52:25.299+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-21T21:53:06.097+05:30"
+                    jcr:lastModified="{Date}2021-12-08T15:52:29.322+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ugamdemo/components/content/title-text"
                     bottomPadding="true"
                     sectionGap="true"
-                    text="Who are in extremely love with eco friendly system."
+                    text="Who are in extremely love wiWho are in extremely love with eco friendly system.th eco friendly system.Who are in extremely love with eco friendly system."
                     title="Our Latest Featured Projects"/>
                 <experiencefragment_2094418180
                     jcr:created="{Date}2021-07-21T22:08:14.037+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-21T22:08:28.627+05:30"
+                    jcr:lastModified="{Date}2021-12-10T14:05:34.414+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ugamdemo/components/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/ugamdemo/us/en/site/portfolio/master"/>
+                    fragmentVariationPath="/content/experience-fragments/ugamdemo/us/en/site/portfolio/Portfolio-live_copy"/>
                 <experiencefragment_384519679
                     jcr:created="{Date}2021-07-21T22:11:29.309+05:30"
                     jcr:createdBy="admin"
