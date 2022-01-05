@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:isLanguageRoot="true"
+        cq:lastModified="{Date}2021-12-08T15:38:38.399+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-12-06T14:06:29.491+05:30"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/ugamdemo/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
+        jcr:uuid="d8c5ba70-26f4-435d-829d-7708eae59e58"
         sling:resourceType="ugamdemo/components/page"
         pageTitle="Ugamdemo">
         <root
@@ -82,4 +91,8 @@
     <home/>
     <about/>
     <exporter/>
+    <test-for-comonents/>
+    <osgi-runmodes/>
+    <contentfragment/>
+    <test/>
 </jcr:root>
