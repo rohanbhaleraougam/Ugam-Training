@@ -3,7 +3,7 @@
     	// In dialog ready lets request the JSON and store it
         let citiesJSON;
 		$.ajax({
-            url: "/content/dam/ugams/cities.json", //Update the path
+            url: "/content/dam/ugamsol/state.json", //Update the path
             async: false,
             success: function (data) {
                 citiesJSON = data;
