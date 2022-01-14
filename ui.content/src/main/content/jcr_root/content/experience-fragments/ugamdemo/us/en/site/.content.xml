@@ -5,4 +5,9 @@
     jcr:title="Site">
     <header/>
     <footer/>
+    <services/>
+    <portfolio/>
+    <testimonial-and-title-text/>
+    <price/>
+    <blog-teaser/>
 </jcr:root>
