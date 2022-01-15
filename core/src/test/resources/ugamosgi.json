@@ -1,0 +1,7 @@
+{
+  "serviceCountry" : ["us","in","en"],
+  "isService" : "true",
+  "serviceName" : "Author",
+  "serviceRunMode" : "author",
+  "serviceID" : "11"
+}

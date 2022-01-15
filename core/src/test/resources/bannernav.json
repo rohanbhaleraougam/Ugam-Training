@@ -1,0 +1,13 @@
+{
+  "bannernav": {
+    "nav1": "Home1",
+    "nav2": "Home2",
+    "title": "Home",
+    "jcr:lastModified": "Mon Jun 21 2021 20:54:32 GMT+0530",
+    "sling:resourceType": "ugams/components/content/banner-navigation",
+    "nav1Path": "/content/ugams/in/en/about1",
+    "nav2Path": "/content/ugams/in/en/about2"
+
+  }
+
+}
