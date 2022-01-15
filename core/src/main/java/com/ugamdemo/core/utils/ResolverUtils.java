@@ -8,12 +8,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ResolverUtils {
+    private ResolverUtils(){
+
+    }
 
     public static final String UGAMDEMO_SERVICE_USER = "ugamdemoserviceuser";
-    public static ResourceResolver newResolver(ResourceResolverFactory resourceResolverFactory ) throws LoginException, LoginException {
-        final Map<String, Object> paramMap = new HashMap<String, Object>();
+    public static ResourceResolver newResolver(ResourceResolverFactory resourceResolverFactory ) throws LoginException {
+        final Map<String, Object> paramMap = new HashMap<>();
         paramMap.put( ResourceResolverFactory.SUBSERVICE, UGAMDEMO_SERVICE_USER );
-        ResourceResolver resolver = resourceResolverFactory.getServiceResourceResolver(paramMap);
-        return resolver;
+        return resourceResolverFactory.getResourceResolver(paramMap);
     }
 }

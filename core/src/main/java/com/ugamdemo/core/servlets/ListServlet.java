@@ -38,11 +38,11 @@ public class ListServlet extends SlingSafeMethodsServlet {
             while (childPages.hasNext()) {
                 Page childPage = childPages.next();
                 JSONObject pageObject = new JSONObject();
-                pageObject.put(childPage.getTitle(), childPage.getPath().toString());
+                pageObject.put(childPage.getTitle(), childPage.getPath());
                 pagesArray.put(pageObject);
             }
         }catch (JSONException exception){
-            LOG.info("\n Error : ", exception.getMessage());
+            LOG.info(exception.getMessage());
         }
         response.setContentType("application/json");
         response.getWriter().write(pagesArray.toString());

@@ -67,6 +67,9 @@ public class ServiceUserModelImpl implements ServiceUserModel {
                 } catch (RepositoryException e) {
                     e.printStackTrace();
                 }
+                 finally {
+                     serviceResourceResolver.close();
+                 }
             }
 
         return user;

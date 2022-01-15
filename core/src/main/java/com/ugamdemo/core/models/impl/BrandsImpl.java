@@ -3,7 +3,6 @@ import com.ugamdemo.core.models.Brands;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 
 import javax.inject.Inject;
 import java.util.*;
@@ -17,7 +16,7 @@ public class BrandsImpl implements Brands{
     public List<String> getImgPath() {
         if(imgPath!=null)
         {
-            return new ArrayList<String>(imgPath);
+            return new ArrayList<>(imgPath);
         }
         else
         {
