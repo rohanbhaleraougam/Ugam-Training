@@ -55,7 +55,7 @@ public class ServiceUserImpl implements ServiceUser {
                 usernames.add(hitResults.getName());
             }
         } catch (RepositoryException e) {
-            LOG.error("Service User ERROR",e.getMessage());
+            LOG.error(e.getMessage());
         } catch (LoginException e) {
             e.printStackTrace();
         }

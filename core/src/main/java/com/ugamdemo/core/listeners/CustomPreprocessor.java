@@ -55,9 +55,10 @@ public class CustomPreprocessor implements Preprocessor {
                 }
                 session.save();
                 session.logout();
-            } catch (LoginException | RepositoryException | InvalidDateException e) {
+            } catch (LoginException | RepositoryException | InvalidDateException | NullPointerException e) {
                 e.printStackTrace();
             }
+
         }
         try {
             log.debug(path);
