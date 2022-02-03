@@ -1,6 +1,5 @@
 package com.ugamdemo.core.models.impl;
 
-import com.ugamdemo.core.models.Price;
 import com.ugamdemo.core.models.Timeline;
 import io.wcm.testing.mock.aem.junit5.AemContext;
 import io.wcm.testing.mock.aem.junit5.AemContextExtension;
@@ -10,11 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 @ExtendWith({AemContextExtension.class, MockitoExtension.class})
 class TimelineImplTest {
